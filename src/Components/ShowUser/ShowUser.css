@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+.no-description {
+    color: #fff;
+    font-size: medium;
+    margin-top: 30px;
+}
+
+
+.container-description {
+    background-color: #00a8a8;
+    font-size: 16px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    margin: 25px auto;
+    width: auto;
+}
+
+.container-description:hover {
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
+}
+
+.container-description h2 {
+    margin: 0 0 10px;
+    padding-top: 10px;
+    color: #000;
+    text-align: center;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.description ul {
+    counter-reset: li;
+    list-style: none;
+    *list-style: decimal;
+    font-size: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0;
+    margin-bottom: 4em;
+}
+
+.description li {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: #5975D9;
+    color: white;
+    text-decoration: none;
+    box-shadow:inset 0.5em 0 black;
+    -webkit-transition: box-shadow 1s; /* For Safari 3.1 to 6.0 */
+    transition: box-shadow 1s;
+}
+
+.description li:hover {
+    box-shadow:inset 2em 0 black;
+}
+
+/*Cancel Button*/
+
+.cancel {
+    margin-left: 60%;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: transparent;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    border-top: none;
+    border-bottom: none;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.cancel:hover {
+    border-right: none;
+    border-left: none;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    transition: all 1s;
+}
